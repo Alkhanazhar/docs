@@ -8,7 +8,7 @@ const Card = ({ reference }) => {
       drag
       dragConstraints={reference}
       whileDrag={{ scale: 1.2 }}
-      dragTransition={{ bounceStiffness: 400, bounceDamping: 10 }}
+      dragTransition={{ bounceStiffness: 100, bounceDamping: 10 }}
       className="w-60 h-[350px] px-5 py-10  rounded-[50px] relative bg-zinc-600 text-white overflow-hidden bg-opacity-50 tracking-widest"
     >
       <FaRegFileAlt />
